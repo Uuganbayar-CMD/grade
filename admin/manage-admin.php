@@ -31,7 +31,7 @@
             <h1>Manage Admin</h1>    
             <br>
             <!-- Button to add admin-->
-    <a href="add-admin.php" class="add-admin">Add admin</a>
+    <a href="../add-admin.php" class="add-admin">Add admin</a>
 
     <br>
     <br>

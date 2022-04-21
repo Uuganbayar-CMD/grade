@@ -12,7 +12,7 @@
 }
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin:  auto;
     padding: 1%;
 }
 .img-responsive{
@@ -110,7 +110,7 @@ fieldset{
 /* CSS for Food SEarch Section */
 
 .food-search{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -132,10 +132,16 @@ fieldset{
 }
 
 .box-3{
-    width: 28%;
+    width: 29%;
     float: left;
     margin: 2%;
 }
+
+.box-3 h3{
+    margin-top: -50px;
+}
+
+
 
 
 /* CSS for Food Menu */
@@ -173,14 +179,7 @@ fieldset{
 }
 
 
-/* CSS for Social */
-.social ul{
-    list-style-type: none;
-}
-.social ul li{
-    display: inline;
-    padding: 1%;
-}
+
 
 /* for Order Section */
 .order{
@@ -256,4 +255,52 @@ fieldset{
     .order{
         width: 100%;
     }
+}
+.container1{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding: 8rem;
+    height: 300px;
+}
+
+.item{
+    width: 200px;
+}
+
+.item h3{
+    margin-top: -7rem;
+    color: #ececec;
+    font-size: 2rem;
+}
+
+/*footer*/
+.social{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.social i{
+    margin: 2rem;
+    font-size: 24px;
+    border: 1px solid #747d8c;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.social i:hover{
+    background-color: #747d8c;
+}
+
+.footer{
+background-color: #a3a3a3;    
+}
+
+.footer-text{
+    text-align: center;
+    color: #747d8c;
+    padding-bottom: 2rem;
+    color: #fff;
 }
